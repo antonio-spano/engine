@@ -9,7 +9,7 @@ If you want to add a sprite you need to look into 'SpriteList.hpp'.
 
 Component: the base class from which every base object derives. In fact, this 'engine' is based off an 'ECS' like style.
   Methods:
-    -StartAll(): calls every base object's 'Start' function.
+    -StartAll(): calls every base object's 'Start' function. <br />
     -DrawAll(): calls every base object's 'Draw' function.
     -UpdateAll(): calls every base object's 'Update' function. Takes in delta time as its argument.
     -RegisterUpdate(): is needed to register the instance of the object inherited from 'Component', to call its relative update, draw and start functions. Takes in a Component* as its argument.
