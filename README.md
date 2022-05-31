@@ -55,3 +55,7 @@ Sprite: class which manages the engine's textures.<br />
 Shader: class which manages the engine's shaders.<br />
 &nbsp;&nbsp;&nbsp;Methods:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They are not meant to be accessible by the user.
+
+<br />
+
+I learned OpenGL thanks to https://learnopengl.com
