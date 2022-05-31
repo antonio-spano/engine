@@ -4,6 +4,7 @@ A casual homemade engine just for fun.
 You will need GLFW to run this engine: sudo apt install libglfw3-dev<br />
 <br />
 Doc: to add a class which has a start, draw and update, it needs to inherit from 'Component'. You also need to instantiate the class in the same file, then include the file in 'scripts.hpp', and register the instance in 'UpdateList.hpp'.<br />
+Note: in the small example I made (which you can see just by executing the engine) you can move with W, A, S, D.
 <br />
 If you want to add a sprite you need to look into 'SpriteList.hpp'.
 <br />
