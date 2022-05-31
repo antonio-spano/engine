@@ -30,7 +30,7 @@ GameObject: game object class.<br />
     -Pos(): needed to set the object's position. Arguments: float x, float y, float z.<br />
     -Render(): needed to render the actual object. This functions NEEDS to be called in 'Draw()'.<br />
 <br />
-Input: manages engine's input.<br />
+Input: manages the engine's input.<br />
   Methods:<br />
     -GetAxis(): (static) needed to get keyboard input and return a float between -1 and 1. Arguments: axis (enum Axis), float returnedAxis. Example: if the axis is 'Horizontal', the function will return the input if the keys 'a' or 'd' are pressed, meaning that 'a' is -1 and 'd' is 1, same for 'Vertical' axis.<br />
     <br />
@@ -40,7 +40,7 @@ Math: manages some of the engine's math.<br />
     
     Note: the math.hpp file also provides an implementation of Vector2 and Vector3, with operator overloads.
     
-Physics: handles the engine's physics.<br />
+Physics: manages the engine's physics.<br />
   Methods:<br />
     -AddForce(): adds forge to a gameobject with force and drag. Arguments: GameObject obj, Vector2 axis (the content of axis is returned by the input class), float force, float drag.<br />
     -Rotate() and its overload: rotates a gameobject by a certain angle, around a certain axis. The first function only around one axis, the overload takes in three. Arguments: Gameobject obj, float angle, int axis (the overload takes a Vector3 for three axes).<br />
@@ -50,6 +50,6 @@ Sprite: manages the engine's textures.<br />
     -Sprite()[Constructor] and its overload: Needed to set the path of an image. In the case of multiple images (overloaded constructor function) it takes a number of textures (remember that openGL uses texture indexes such as GL_TEXTURE_0) and an array of image paths (this is the method used by the engine, given the fact that every gameobject takes in the image ID as the final argument (in the overload), so the images are managed in the 'SpriteList.hpp' file.<br />
     -Generate(): used to set all the textures to their IDs (GL_TEXTURE_0 + i where 'i' is an index).<br />
 <br />
-Shader: handles the engine's shaders.<br />
+Shader: manages the engine's shaders.<br />
   Methods:<br />
     They are not meant to be accessible by the user.
