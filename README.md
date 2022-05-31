@@ -7,7 +7,6 @@ Doc: to add a class which has a start, draw and update, it needs to inherit from
 
     Note: in the small example I made (which you can see just by executing the engine) you can move with W, A, S, D.
 
-<br />
 If you want to add a sprite you need to look into 'SpriteList.hpp'.
 <br />
 Component: the base class from which every base object derives. In fact, this 'engine' is based off an 'ECS' like style. <br />
