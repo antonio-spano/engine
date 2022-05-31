@@ -40,7 +40,7 @@ Math: manages some of the engine's math.<br />
     
     Note: the math.hpp file also provides an implementation of Vector2 and Vector3, with operator overloads.
     
-Physics: handles some of the engine's physics.<br />
+Physics: handles the engine's physics.<br />
   Methods:<br />
     -AddForce(): adds forge to a gameobject with force and drag. Arguments: GameObject obj, Vector2 axis (the content of axis is returned by the input class), float force, float drag.<br />
     -Rotate() and its overload: rotates a gameobject by a certain angle, around a certain axis. The first function only around one axis, the overload takes in three. Arguments: Gameobject obj, float angle, int axis (the overload takes a Vector3 for three axes).<br />
