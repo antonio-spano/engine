@@ -1,5 +1,5 @@
-#ifndef TT_ENGINE
-#define TT_ENGINE
+#ifndef SES_ENGINE
+#define SES_ENGINE
 
 #include "math.hpp"
 #include "gameobject.hpp"
