@@ -1,7 +1,8 @@
 O := obj/
-ALL = $Omain.o $Ofile.o $Oshader.o $Osprite.o $Oinput.o $Omath.o $Ophysics.o $Ogameobject.o $OComponent.o $Ostb_image.o UpdateList.hpp scripts.hpp SpriteList.hpp Test.hpp Test2.hpp
+ALL = $Omain.o $Ofile.o $Oshader.o $Osprite.o $Oinput.o $Omath.o $Ophysics.o $Ogameobject.o $OComponent.o $Ostb_image.o UpdateList.hpp scripts.hpp SpriteList.hpp
+SCRIPTS = Test.hpp Test2.hpp
 
-out: $(ALL)
+out: $(ALL) $(SCRIPTS)
 	@g++ -o out $O*.o glad.c -lglfw
 	@echo "done!";
 
