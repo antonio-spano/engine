@@ -1,4 +1,7 @@
 # ses-engine
+
+![engine-screen](https://user-images.githubusercontent.com/85571073/171678562-a16f92ed-be7d-4c34-b519-02b168c87a2f.png)
+
 A casual homemade engine just for fun.
 
 You will need GLFW to run this engine: sudo apt install libglfw3-dev<br />
