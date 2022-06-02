@@ -1,4 +1,6 @@
-#pragma once
+#ifndef SPRITE
+#define SPRITE
+
 #include "glad/glad.h"
 #include "stb_image.h"
 #include <iostream>
@@ -23,4 +25,4 @@ public:
 	~Sprite();
 };
 
-
+#endif
