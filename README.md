@@ -1,6 +1,6 @@
 # engine
 
-![Screenshot from 2022-10-01 16-52-30](https://user-images.githubusercontent.com/85571073/193415478-8ba156e1-3564-4fd5-9773-8ad85508c19e.png)
+![Screenshot from 2022-10-01 17-09-33](https://user-images.githubusercontent.com/85571073/193415964-5fae33db-558b-4a86-93b1-ce89fa1cc4ec.png)
 
 A casual homemade engine just for fun.
 
