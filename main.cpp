@@ -25,7 +25,7 @@ int main()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-	window = glfwCreateWindow(WIDTH, HEIGHT, "Ses Engine v0.0.12", NULL, NULL);
+	window = glfwCreateWindow(WIDTH, HEIGHT, "Engine v0.0.12", NULL, NULL);
 
 	if (window == NULL)
 	{
