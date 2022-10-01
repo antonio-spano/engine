@@ -1,10 +1,11 @@
 # engine
 
-![engine-screen](https://user-images.githubusercontent.com/85571073/171678562-a16f92ed-be7d-4c34-b519-02b168c87a2f.png)
+![Screenshot from 2022-10-01 16-52-30](https://user-images.githubusercontent.com/85571073/193415478-8ba156e1-3564-4fd5-9773-8ad85508c19e.png)
 
 A casual homemade engine just for fun.
 
 You will need GLFW to run this engine: sudo apt install libglfw3-dev<br />
+
 <br />
 Doc: to add a class which has a start, draw and update, it needs to inherit from 'Component'. You also need to instantiate the class in the same file, then include the file in 'scripts.hpp', and register the instance in 'UpdateList.hpp'. You also have to put the file name in the Makefile, in the 'ALL' variable.<br />
 
@@ -13,6 +14,7 @@ Doc: to add a class which has a start, draw and update, it needs to inherit from
 If you want to add a sprite you need to look into 'SpriteList.hpp'.
 <br />
 Component: the base class from which every base object derives. In fact, this 'engine' is based off an 'ECS' like style. <br />
+
 &nbsp;&nbsp;&nbsp;Methods: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-StartAll(): calls every base object's 'Start' function. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-DrawAll(): calls every base object's 'Draw' function. <br />
