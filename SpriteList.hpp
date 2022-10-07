@@ -12,7 +12,7 @@ void SpriteList()
 	filetexture[0] = "images/awesomeface.png";
 	filetexture[1] = "images/container.jpg";
 
-	Sprite images(2, filetexture);
+	Sprite images(DIM, filetexture);
 	images.Generate();
 }
 
